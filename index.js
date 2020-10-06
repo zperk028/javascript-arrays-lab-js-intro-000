@@ -29,3 +29,11 @@ function appendKitten(name) {
   return moreKittens;
 
 }
+
+function prependKitten(name) {
+  var kittens = ['Milo', 'Otis', 'Garfield'];
+  var name = ['Broom'];
+  var moreKittens = name.concat(kittens);
+
+  return moreKittens;
+}
